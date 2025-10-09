@@ -1,5 +1,5 @@
 {
-  "originHash" : "39655a3d4ae05c90c71d6fd386e51cf5b88c1079e4b6d1d7138b50067309cbc9",
+  "originHash" : "b0f968a549a3bd0d188d828da47c558a9d8c4c041bc930490dba500509f6743d",
   "pins" : [
     {
       "identity" : "mapbox-directions-swift",
@@ -49,10 +49,10 @@
     {
       "identity" : "turf-swift",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/flitsmeister/turf-swift",
+      "location" : "https://github.com/mefilt/turf-swift.git",
       "state" : {
-        "revision" : "b05b4658d1b48eac4127a0d9ebbb5a6f965a8251",
-        "version" : "0.2.2"
+        "revision" : "a717cbf26335a2315b10a7baa15d66da3dc2429f",
+        "version" : "0.2.4"
       }
     }
   ],
