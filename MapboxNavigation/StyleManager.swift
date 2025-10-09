@@ -105,7 +105,7 @@ open class StyleManager: NSObject {
         guard self.automaticallyAdjustsStyleForTimeOfDay, self.nightStyle != nil else { return }
         guard let location = delegate?.locationFor(styleManager: self) else { return }
         
-        guard let solar = Solar(date: stubbedDate, coordinate: location.coordinate),
+        guard let solar = WBSolar(date: stubbedDate, coordinate: location.coordinate),
               let sunrise = solar.sunrise,
               let sunset = solar.sunset else {
             return
@@ -170,7 +170,7 @@ open class StyleManager: NSObject {
     }
 
     func styleType(for location: CLLocation) -> StyleType {
-        guard let solar = Solar(date: stubbedDate, coordinate: location.coordinate),
+        guard let solar = WBSolar(date: stubbedDate, coordinate: location.coordinate),
               let sunrise = solar.sunrise,
               let sunset = solar.sunset else {
             return .day
@@ -224,7 +224,7 @@ extension Date {
     }
 }
 
-extension Solar {
+extension WBSolar {
     init?(date: Date?, coordinate: CLLocationCoordinate2D) {
         if let date {
             self.init(for: date, coordinate: coordinate)

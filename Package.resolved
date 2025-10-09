@@ -1,5 +1,5 @@
 {
-  "originHash" : "b0f968a549a3bd0d188d828da47c558a9d8c4c041bc930490dba500509f6743d",
+  "originHash" : "3ad5e7e46b094de86195d545e3760a60ca61d7c87fbe63f1a8fc8d4cb5084d1f",
   "pins" : [
     {
       "identity" : "mapbox-directions-swift",
@@ -33,8 +33,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/mefilt/Solar.git",
       "state" : {
-        "revision" : "2c655842cde278e2cc22c948d1d2990ff3476682",
-        "version" : "3.0.4"
+        "revision" : "a484d38d2243d46cee297da894c29ca33732364e",
+        "version" : "3.0.6"
       }
     },
     {
@@ -51,8 +51,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/mefilt/turf-swift.git",
       "state" : {
-        "revision" : "a717cbf26335a2315b10a7baa15d66da3dc2429f",
-        "version" : "0.2.4"
+        "revision" : "3b8251c8083454f17a63d0093490700e01ac02ef",
+        "version" : "0.2.6"
       }
     }
   ],
