@@ -1,4 +1,5 @@
 {
+  "originHash" : "254817f084d323f0d438a9236e7a290fb7725b3de04d80794b1575a6691f5dc8",
   "pins" : [
     {
       "identity" : "mapbox-directions-swift",
@@ -30,10 +31,10 @@
     {
       "identity" : "solar",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/ceeK/Solar.git",
+      "location" : "https://github.com/mefilt/Solar.git",
       "state" : {
-        "revision" : "c2b96f2d5fb7f835b91cefac5e83101f54643901",
-        "version" : "3.0.1"
+        "revision" : "ced9766bedd5dc1d850eb1ea54708f9676819b88",
+        "version" : "3.0.2"
       }
     },
     {
@@ -55,5 +56,5 @@
       }
     }
   ],
-  "version" : 2
+  "version" : 3
 }

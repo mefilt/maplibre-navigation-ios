@@ -1,11 +1,11 @@
-// swift-tools-version: 5.9
+// swift-tools-version: 5.10
 
 import PackageDescription
 
 let package = Package(
     name: "maplibre-navigation-ios",
     defaultLocalization: "en",
-    platforms: [.iOS(.v12)],
+    platforms: [.iOS(.v14)],
     products: [
         .library(
             name: "MapboxNavigation",
@@ -18,7 +18,7 @@ let package = Package(
         .package(url: "https://github.com/flitsmeister/mapbox-directions-swift", exact: "0.23.3"),
         .package(url: "https://github.com/flitsmeister/turf-swift", exact: "0.2.2"),
         .package(url: "https://github.com/maplibre/maplibre-gl-native-distribution.git", from: "6.0.0"),
-        .package(url: "https://github.com/ceeK/Solar.git", exact: "3.0.1"),
+        .package(url: "https://github.com/mefilt/Solar.git", exact: "3.0.2"),
         .package(url: "https://github.com/nicklockwood/SwiftFormat.git", from: "0.53.6")
     ],
     targets: [
