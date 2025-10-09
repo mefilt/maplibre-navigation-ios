@@ -1,13 +1,13 @@
 {
-  "originHash" : "fb3750be16edf48be3bf16ce8039fa54de4aa81895fd150999dbd6cce5f33c54",
+  "originHash" : "c8c5dc8a7d555c17db30aaa45282ce34b9846d3d47ff5249d750b48e4c3a0e75",
   "pins" : [
     {
       "identity" : "mapbox-directions-swift",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/mefilt/mapbox-directions-swift.git",
       "state" : {
-        "revision" : "6c19ecc4e1324887ae3250802b8d13d8d8b3ff2d",
-        "version" : "0.23.3"
+        "revision" : "19ee0fbbd05edb4a6428de896e363dc5227bcbc4",
+        "version" : "0.23.4"
       }
     },
     {
@@ -22,10 +22,10 @@
     {
       "identity" : "polyline",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/raphaelmor/Polyline",
+      "location" : "https://github.com/mefilt/Polyline.git",
       "state" : {
-        "revision" : "353f80378dcd8f17eefe8550090c6b1ae3c9da23",
-        "version" : "5.1.0"
+        "revision" : "185d9f584877dcc8d9dfd6495062f475de8ffe3c",
+        "version" : "5.1.1"
       }
     },
     {
