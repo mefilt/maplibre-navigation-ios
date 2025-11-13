@@ -228,7 +228,7 @@ open class RouteController: NSObject, Router {
      The raw location, snapped to the current route.
      - important: If the rawLocation is outside of the route snapping tolerances, this value is nil.
      */
-    var snappedLocation: CLLocation? {
+    public var snappedLocation: CLLocation? {
         guard let raw = self.rawLocation else {
             return nil
         }
