@@ -81,7 +81,7 @@ let FasterRouteFoundEvent = "navigation.fasterRoute"
 /**
  Accepted deviation excluding horizontal accuracy before the user is considered to be off route.
  */
-public var RouteControllerUserLocationSnappingDistance: CLLocationDistance = 15
+public var RouteControllerUserLocationSnappingDistance: CLLocationDistance = 50
 
 /**
  Maximum angle the user puck will be rotated when snapping the user's course to the route line.
