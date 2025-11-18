@@ -316,6 +316,7 @@ extension RouteController: CLLocationManagerDelegate {
             course = interpolatedCoordinate.direction(to: upcomingCoordinate)
         }
 
+        print("#555 location.horizontalAccuracy \(location.horizontalAccuracy)")
         let interpolatedLocation = CLLocation(coordinate: interpolatedCoordinate,
                                               altitude: location.altitude,
                                               horizontalAccuracy: location.horizontalAccuracy,
@@ -492,7 +493,7 @@ extension RouteController: CLLocationManagerDelegate {
             return false
         }
 
-        if nearestStep.distance < RouteControllerUserLocationSnappingDistance {
+        if nearestStep.distance < 15 {
             // Only advance the stepIndex to a future step if the step is new. Otherwise, the user is still on the current step.
             if nearestStep.index != self.routeProgress.currentLegProgress.stepIndex {
                 self.advanceStepIndex(to: nearestStep.index)
